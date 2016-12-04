@@ -1,0 +1,25 @@
+/*  CSS Document                             */
+
+.timeline nav {
+    width: 100%;
+}
+
+
+/* since Internet Explorer or IE 7 or 8 doesn't support CSS3 rgba or other stuff of CSS3*/
+
+.timeline nav a::first-child {
+    border-left-width: 4px;
+}
+
+.timeline nav a.selected {
+    color: #000;
+    background: #fff;
+}
+
+.timeline .panel_content .label {
+    color: #a58293;
+}
+
+.timeline .panel_content p {
+    color: #fff;
+}
